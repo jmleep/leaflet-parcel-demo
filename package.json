@@ -1,12 +1,12 @@
 {
-  "name": "chop-block-ui",
+  "name": "name here",
   "version": "1.0.0",
   "description": "",
   "main": "index.jsx",
   "scripts": {
     "start": "parcel src/index.html"
   },
-  "author": "Visionist, Inc",
+  "author": "",
   "license": "ISC",
   "dependencies": {
     "parcel-bundler": "^1.10.1",
