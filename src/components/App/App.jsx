@@ -8,9 +8,7 @@ const App = () => (
   <div className={styles.app}>
     <Header />
     <br />
-    <div className={styles.body}>
-      <div className={styles.bodyItem}>Content Example </div>
-    </div>
+    Content Here
   </div>
 );
 
