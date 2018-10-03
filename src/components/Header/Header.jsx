@@ -4,10 +4,13 @@ import styles from './Header.css';
 const Header = () => (
   <div>
     <div className={styles.header}>
-      Chop Block{' '}
-      <span role="img" aria-label="knife">
+      <span role="img" aria-label="chop">
         🔪
       </span>
+      <span role="img" aria-label="chop">
+        🚫
+      </span>
+      Chop Block
     </div>
   </div>
 );
