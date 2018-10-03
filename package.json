@@ -1,0 +1,38 @@
+{
+  "name": "chop-block-ui",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.jsx",
+  "scripts": {
+    "start": "webpack-dev-server --mode=development",
+    "start-prod": "webpack --mode=production"
+  },
+  "author": "Visionist, Inc",
+  "license": "ISC",
+  "dependencies": {
+    "react": "^16.3.2",
+    "react-dom": "^16.3.2"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-eslint": "^10.0.1",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-react": "^6.24.1",
+    "eslint": "^4.19.1",
+    "eslint-config-airbnb": "^16.1.0",
+    "eslint-config-prettier": "^3.1.0",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-jsx-a11y": "^6.1.1",
+    "eslint-plugin-prettier": "^3.0.0",
+    "eslint-plugin-react": "^7.11.1",
+    "prettier": "^1.14.3"
+  },
+  "babel": {
+    "presets": [
+      "env",
+      "react"
+    ]
+  }
+}
