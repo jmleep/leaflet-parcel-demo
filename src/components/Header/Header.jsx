@@ -4,7 +4,7 @@ import styles from './Header.css';
 const Header = () => (
   <div>
     <div className={styles.header}>
-      Header
+      Leaflet Demo
     </div>
   </div>
 );
